@@ -1,0 +1,171 @@
+
+:root{
+    --greycolor:#8D99A5;
+    --orangecolor:#FD8686;
+    --beiegcolor:#F5EDEA;
+    --greencolor:#77ADAE;
+    --lora:'Lora', serif;
+    --merriweather:'Merriweather', serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+}
+.signup-card{
+    box-shadow: 4px 4px 15px;
+    background: var(--beiegcolor);
+    
+}
+
+.login{
+    padding-top: 100px;
+}
+
+
+.form{
+    font-family: 'Lora', serif;
+    padding-left: 10px;
+}
+
+
+
+
+.inpt{
+    height: 50px;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: none;
+    background-color: var(--beiegcolor);
+
+}
+
+.inpt:focus{
+    outline: none;
+}
+
+.btn1{
+    height: 50px;
+    width:100%;
+    border-radius: 10px;
+    background: var(--greencolor);
+    color: white;
+    font-size: 30px;
+    padding-bottom: 0px;
+    border-color: var(--greycolor);
+    border-width: 1px;
+
+}
+
+.btn1:hover{
+    background: var(--orangecolor);
+
+}
+
+.social-logo{
+    width: 40px;
+    padding: 5px;
+}
+.social-btn{
+    padding-top: 5px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-left: 5px;
+    border-color: var(--greycolor);
+    border-width: 1px;
+    background-color: var(--beiegcolor);
+}
+.social-text{
+    margin-left: 0px;
+    font-size: 17px;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-right: 1px;
+    font-family: var(--lora);
+}
+.material-icons{
+    color: #8D99A5;
+}
+.label{
+    margin-bottom: 0px;
+    font-family: var(--lora);
+}
+.create-heading,.color-change,.color-change2{
+    color: var(--orangecolor);
+}
+.create-heading{
+    font-family: var(--merriweather);
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.icn{
+    padding-right: 0px;
+}
+
+.check{
+    padding-left: 0px;
+}
+.sub{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: var(--merriweather);
+    font-weight: bold;
+}
+.color-change2{
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: var(--lora)
+}
+.p{
+    font-family: var(--lora);
+}
+.col-lg-7{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-fluid{
+    border: 1px solid var(--greycolor);
+    border-radius: 10px;
+   
+    display: inline-flex;
+}
+
+.form-icon{
+    align-self: center;
+
+}
+
+.form>.row{
+    margin-right: 0px !important;
+}
+
+.social, .seperator{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+.facebook{
+    padding-right: 0px !important;
+}
+.google{
+    padding-left: 0px !important;
+}
+
+.navi{
+    align-self: center;
+}
